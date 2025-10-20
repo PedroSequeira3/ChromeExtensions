@@ -8,7 +8,7 @@ Rock Paper Scissors
 
 
 ## Future Ideas
-
++ Coinflip (CF)
 + Mastermind style (MM)
 + Snake style (SS)
 + Flappy Bird style (FB)
