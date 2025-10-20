@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2>Rock Paper Scissors</h2>
+
+    <div class="button-container" id="button-container">
+      <!-- data-choice attributes used for delegation -->
+      <button class="choice-btn" data-choice="rock" id="rock">
+        <img class="choice-img" data-img="rock" alt="Rock">
+      </button>
+
+      <button class="choice-btn" data-choice="paper" id="paper">
+        <img class="choice-img" data-img="paper" alt="Paper">
+      </button>
+
+      <button class="choice-btn" data-choice="scissors" id="scissors">
+        <img class="choice-img" data-img="scissors" alt="Scissors">
+      </button>
+    </div>
+
+    <p id="result">Make your move!</p>
+
+    <div id="scoreboard">
+      <h3>Score</h3>
+      <p>
+        <span style="color:#4CAF50; font-weight:bold;">W:</span> <span id="wins">0</span> |
+        <span style="color:#FFEB3B; font-weight:bold;">T:</span> <span id="ties">0</span> |
+        <span style="color:#f44336; font-weight:bold;">L:</span> <span id="losses">0</span>
+      </p>
+      <button id="reset">Reset</button>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
